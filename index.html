@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jk-Bank-Limited</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+<div class="container">
+        <div id="login-area">
+            <h1 class="text-center">Welcome To JK Bank Limited</h1>
+            <div class="submit-area">
+            <h4 class="mb-3">Login</h4>
+            <input type="text" class="form-control" placeholder="Email"><br>
+            <input type="password" name="" id="" class="form-control" placeholder="Password"> <br>
+            <button class="btn btn-success" id="loginBtn">Enter</button>
+            </div>
+        </div>
+
+
+        <div id="transaction-area">
+            <h2 id="trnTitle">Transaction mode</h2>
+            <div class="row text-center">
+                <div class="col-4">
+                    <div class="deposit">
+                        <h4>Deposit</h4>
+                        <h2>$ <span id="currentDeposit">00</span></h2>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="withdraw">
+                        <h4>Withdraw</h4>
+                        <h2>$ <span id="withdrawValue">00</span></h2>
+                    </div>
+                </div>
+
+                <div class="col-4">
+                    <div class="blance">
+                        <h4>Blance</h4>
+                        <h2>$ <span id="blanceAdd">1200</span></h2>
+                    </div>
+                </div>
+            </div>
+
+
+            <div class="transactionStep mt-5">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="deposit-input">
+                            <h2>Deposit</h2>
+                            <input type="number" name="" id="depositAmount" class="form-control" placeholder="$ amount you want to deposit"><br>
+                            <button class="btn btn-success" id="addDeposit">Deposit</button>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="withdraw-input">
+                            <h2>Withdraw</h2>
+                            <input type="number" name="" id="withdrawAmount" class="form-control" placeholder="$ amount you want to withdraw"><br>
+                            <button class="btn btn-success" id="withdrawBtn">Withdraw</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+
+
+
+
+
+</div>    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!--All JS File-->
+<script src="jkBank.js"></script>    
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
